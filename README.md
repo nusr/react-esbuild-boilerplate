@@ -9,6 +9,8 @@ support by [esbuild](https://github.com/evanw/esbuild).
 ## Start
 
 ```bash
+git clone https://github.com/nusr/react-esbuild-boilerplate.git
+cd react-esbuild-boilerplate
 npm install
 npm run start
 ```
