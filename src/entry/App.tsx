@@ -44,7 +44,15 @@ export const App = React.memo(() => {
             <div>{`<BaseIcon name="${key}" />`}</div>
           </IconItem>
         ))}
-        <input type="color" value={activeColor} onChange={onChangeColor} />
+        <div>
+          <label htmlFor="change-color">Change Color:</label>
+          <input
+            id="change-color"
+            type="color"
+            value={activeColor}
+            onChange={onChangeColor}
+          />
+        </div>
       </IconList>
     </ThemeProvider>
   );
