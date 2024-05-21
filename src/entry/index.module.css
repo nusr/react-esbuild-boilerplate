@@ -1,0 +1,35 @@
+.menubar-container {
+  border-bottom: 1px solid var(--borderColor);
+  padding: var(--mediumPadding) var(--largePadding);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menubar-menu {
+  flex: 1;
+}
+
+.menubar-menu .menu {
+  width: 150px;
+  flex: 1;
+}
+
+.theme-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i18n,
+.fps,
+.theme {
+  margin-right: var(--mediumPadding);
+}
+
+.menubar-content {
+  text-align: center;
+  font-size: 18px;
+  padding: var(--mediumPadding);
+}

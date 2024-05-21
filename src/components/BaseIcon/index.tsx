@@ -1,26 +1,19 @@
-import React, { memo } from "react";
-import styled from "styled-components";
+import { FunctionComponent, memo } from 'react';
+import iconConfig from './icon';
+import type { BaseIconName } from './icon';
+import { BaseIcon } from './BaseIcon';
 
-export type BaseIconName = "bold" | "italic" | "underline";
-
-const SvgContainer = styled.svg`
-  width: 1em;
-  height: 1em;
-  fill: currentColor;
-  overflow: hidden;
-`;
-
-type BaseIconProps = {
-  className?: string;
+interface IconProps {
   name: BaseIconName;
-};
-export const BaseIcon = memo((props: BaseIconProps) => {
-  const { className = "", name } = props;
-  return (
-    <SvgContainer className={className} aria-hidden="true">
-      <use xlinkHref={`#icon-${name}`}></use>
-    </SvgContainer>
-  );
-});
+  className?: string;
+  testId?: string;
+}
 
-BaseIcon.displayName = "BaseIcon";
+export const Icon: FunctionComponent<IconProps> = memo(
+  ({ name, className = '', testId }) => {
+    const paths = iconConfig[name].map((item) => ({ d: item }));
+    return BaseIcon({ className, paths, testId });
+  },
+);
+Icon.displayName = 'Icon';
+

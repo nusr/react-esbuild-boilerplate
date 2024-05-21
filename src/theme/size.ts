@@ -1,9 +1,15 @@
 const size = {
-  smallFont: "10px",
-  font: `14px`,
-  largeFont: "14px",
-  padding: "12px",
-  margin: "12px",
-  fontFamily: "simsun,sans-serif",
+  smallFont: '10px',
+  font: '12px',
+  largeFont: '14px',
+  padding: '12px',
+  lineHeight: 1.5,
+  mediumPadding: '8px',
+  largePadding: '20px',
+  borderRadius: '4px',
+  borderLargeRadius: '8px',
+  tinyPadding: '4px',
+  scrollBarContent: '30px',
+  formulaBarHeight: '25px',
 };
 export default size;

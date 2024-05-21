@@ -3,5 +3,17 @@ dist
 .vscode
 .idea
 yarn.lock
+package-lock.json
 coverage
 dist
+.DS_Store
+lib
+output
+port.txt
+*.html
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+report
+docs
