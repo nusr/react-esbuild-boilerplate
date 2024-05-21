@@ -1,5 +1,10 @@
 # react-esbuild-boilerplate
 
+[![CI](https://github.com/nusr/react-esbuild-boilerplate/actions/workflows/main.yml/badge.svg)](https://github.com/nusr/react-esbuild-boilerplate/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/nusr/react-esbuild-boilerplate/graph/badge.svg?token=FW67QU1LC5)](https://codecov.io/gh/nusr/react-esbuild-boilerplate)
+![GitHub](https://img.shields.io/github/license/nusr/react-esbuild-boilerplate.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nusr/react-esbuild-boilerplate.svg)
+
 An extremely fast react boilerplate.
 
 support by [esbuild](https://github.com/evanw/esbuild).
