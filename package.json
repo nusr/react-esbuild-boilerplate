@@ -1,6 +1,6 @@
 {
   "name": "react-esbuild-boilerplate",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An extremely fast react boilerplate",
   "main": "lib/index.umd.js",
   "module": "lib/index.esm.js",
@@ -15,17 +15,12 @@
     "prepare": "husky && npx playwright install --with-deps",
     "typedoc": "npx typedoc"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run ci"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/nusr/react-esbuild-boilerplate.git"
   },
   "keywords": [],
-  "author": "Steve Xu <1161176156@qq.com>",
+  "author": "Steve Xu <stevexugc@gmail.com>",
   "license": "MIT",
   "homepage": "https://nusr.github.io/react-esbuild-boilerplate",
   "dependencies": {
